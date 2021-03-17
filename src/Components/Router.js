@@ -1,6 +1,6 @@
 import React from "react";
 //to remove '#' in url, use 'BrowserRouter' same with 'HashRouter'
-import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 import Header from "Components/Header"
 import Home from "Routes/Home";
 import Search from "Routes/Search";
