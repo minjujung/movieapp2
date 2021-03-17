@@ -50,7 +50,7 @@ const Poster = ({ id, imageUrl, title, rating, year, isMovie = false }) => (
     <Link to={isMovie ? `/movie/${id}` : `/show/${id}`}>
         <Container>
             <ImageContainer>
-                <Image bgUrl={imageUrl ? `https://image.tmdb.org/t/p/w300${imageUrl}` : "/noPosterSmall.png"} />
+                <Image bgUrl={imageUrl ? `https://image.tmdb.org/t/p/w300${imageUrl}` : "/noPosterSmall.PNG"} />
                 <Rating>
                     <span role="img" aria-label="rating">
                         ⭐

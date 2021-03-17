@@ -332,7 +332,7 @@ const DetailPresenter = ({ result, error, loading }) => (
                 bgImage={
                     result.poster_path
                         ? `https://image.tmdb.org/t/p/original${result.poster_path}`
-                        : ("/noPosterSmall.png")
+                        : ("/noPosterSmall.PNG")
                 } 
                 />
         <Data>
@@ -415,7 +415,7 @@ const DetailPresenter = ({ result, error, loading }) => (
                                 <h4>{`${company.name}`}</h4>
                             </div> 
                             : <div>
-                                <img src="/noPosterSmall.png"/> 
+                                <img src="/noPosterSmall.PNG"/> 
                                 <h4>{`${company.name}`}</h4>
                             </div> 
                         )}
@@ -432,7 +432,7 @@ const DetailPresenter = ({ result, error, loading }) => (
                                 <h4>{`${people.name}`}</h4>
                             </div>
                             : <div>
-                                <img src="/noPosterSmall.png"/> 
+                                <img src="/noPosterSmall.PNG"/> 
                                 <h4>{`${people.name}`}</h4>
                             </div>
                         )}
@@ -449,7 +449,7 @@ const DetailPresenter = ({ result, error, loading }) => (
                                     <h4>{`${season.name}`}</h4>
                                 </div>
                                 : <div>
-                                    <img src="/noPosterSmall.png"/> 
+                                    <img src="/noPosterSmall.PNG"/> 
                                     <h4>{`${season.name}`}</h4>
                                 </div>
                             )}
