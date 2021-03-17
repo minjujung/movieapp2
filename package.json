@@ -34,7 +34,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://minjujung.github.io/movieapp2",
+  "homepage": "https://quirky-lovelace-0e60de.netlify.app/",
   "browserslist": {
     "production": [
       ">0.2%",
