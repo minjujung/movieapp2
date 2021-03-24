@@ -4,10 +4,10 @@ Learning React and ES6 by building New version Movie App!!
 
 ## Screen
 
-- [ ] Home
-- [ ] TV Shows
-- [ ] Search
-- [ ] Detail
+- [x] Home
+- [x] TV Shows
+- [x] Search
+- [x] Detail
 
 
 ## API Verbs
